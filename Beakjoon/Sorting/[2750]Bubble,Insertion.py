@@ -8,6 +8,7 @@ def bubblesort(list):
         for j in range(list_len-1-i):
             if list[j] > list[j+1]:
                 list[j], list[j+1] = list[j+1], list[j]
+                
 # 삽입 정렬             
 def insertionsort(list):
     # 인덱스 0이 아닌 1부터 최종 인덱스까지 비교
@@ -25,7 +26,6 @@ def insertionsort(list):
         list[j+1] = key
 
 num = int(input())
-
 list = []
 
 for i in range(num):
