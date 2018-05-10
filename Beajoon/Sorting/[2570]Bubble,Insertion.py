@@ -28,7 +28,6 @@ num = int(input())
 
 list = []
 
-
 for i in range(num):
     list.insert(i,int(input()))
 # list.sort()     option으로 reverse = True도 가능
